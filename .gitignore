@@ -1,0 +1,138 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+
+# IDE - Eclipse
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+bin/
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# Logs
+logs/
+*.log
+*.log.*
+log/
+
+# Application specific
+application-local.properties
+application-*.local.properties
+*.pid
+
+# Database
+*.db
+*.sqlite
+*.h2.db
+liquibase.properties
+
+# Temp files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Security - Never commit these
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+*.crt
+*.cer
+secrets/
+credentials/
+
+# Docker
+docker-compose.override.yml
+.env
+.env.local
+
+# Test coverage
+jacoco.exec
+coverage/
+.nyc_output/
+
+# Build directories
+build/
+dist/
+
+# Node (if any frontend tools are used)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (for report-engine integration)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# AWS
+.aws/
+
+# Backup files
+backup/
+*.backup
+
+# Cache
+.cache/
+.m2/repository/
+
+/target/
+*.class
+.env
